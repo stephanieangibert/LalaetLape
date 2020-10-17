@@ -27,7 +27,7 @@ function playpause() {
     } else {
       
        i.classList.add("fa-play");
-       pp.innerHTML="Play ";
+       pp.innerHTML="Play";
        yeuxVert.classList.remove("yeuxVertrond");
       
     }
