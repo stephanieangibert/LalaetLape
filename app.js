@@ -1,4 +1,4 @@
-let video=document.getElementById("video");
+let video=document.getElementById("video1");
 console.log(video);
 let play =document.querySelector(".play");
 let i=document.querySelectorAll("i")[1];
