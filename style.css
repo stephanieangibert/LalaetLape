@@ -369,7 +369,47 @@ width: 88%;
     background-position: center;
     background-repeat: no-repeat;
   width: 105%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: 1s;
 } 
+.couleur{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 1s;
+}
+.fa-lightbulb{
+    animation: pulse 2s ease-in-out infinite both;
+}
+@keyframes pulse{
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.logo2{
+    font-size: 300%;
+    color:white;
+}
+.logo3{
+    color: white;
+    text-align: center;
+}
+.fa-lightbulb{
+    cursor: pointer;
+}
+
 @-webkit-keyframes explore{
     0%{
         opacity:0;
@@ -446,7 +486,7 @@ width: 48px;
     
 }
 .ensemble{
-    width: 200px;
+    width: 500px;
     height: 88vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -793,12 +833,7 @@ a{
 .fa-pause-circle{
     color:black;
 }
-/* .deux{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    
-} */
+
 
 .trois{
     background-color: whitesmoke;
@@ -947,13 +982,7 @@ width: 88%;
     -webkit-animation: explore forwards 2s;
             animation: explore forwards 2s;
 }
-/* .deux{
-    background: url('images/Lape_Lala/ grande.jpg');  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  
-} */
+
 @-webkit-keyframes explore{
     0%{
         opacity:0;
@@ -1029,20 +1058,7 @@ width: 48px;
     font-family: 'Archivo Black', sans-serif;
     
 }
-.ensemble{
-    width: 200px;
-    height: 88vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-}
+
 #toggleBar{
     display: none;
 }
@@ -1618,20 +1634,7 @@ width: 48px;
     font-family: 'Archivo Black', sans-serif;
     
 }
-.ensemble{
-    width: 200px;
-    height: 88vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-}
+
 #toggleBar{
     display: none;
 }
@@ -1958,12 +1961,7 @@ a{
 .fa-pause-circle{
     color:black;
 }
-/* .deux{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    
-} */
+
 
 .trois{
     background-color: whitesmoke;
@@ -2094,13 +2092,7 @@ width: 88%;
     -webkit-animation: explore forwards 2s;
             animation: explore forwards 2s;
 }
-/* .deux{
-    background: url('images/Lape_Lala/ grande.jpg');  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  
-} */
+
 @-webkit-keyframes explore{
     0%{
         opacity:0;
@@ -2152,6 +2144,9 @@ width: 48px;
     left: 100%;
 
 }
+.yeux img{
+    width: 96%;
+}
 
 .yeuxVertrond{
     position: absolute;
@@ -2176,20 +2171,7 @@ width: 48px;
     font-family: 'Archivo Black', sans-serif;
     
 }
-.ensemble{
-    width: 200px;
-    height: 88vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-}
+
 #toggleBar{
     display: none;
 }
@@ -2221,7 +2203,7 @@ width: 48px;
 }
 .qutreBis{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 70%;
     
@@ -2401,7 +2383,7 @@ li:nth-child(4){
     margin-right: 0px;
 }
 .play{
-    top:10%;
+    top:110%;
     z-index: 1000;
 }
 #toggleLi.displayMenu {
@@ -2444,5 +2426,20 @@ h3{
 .clePetitePorteBleue{
     transform: rotateY(0deg);
 }
-
+.container4{
+    width:100%;
+}
+.contact{
+    width: 20%;
+    font-size: 320%;
+}
+.quatre{
+    width: 500px;
+}
+.qutreBis{
+    width: 50%;
+}
+.block{
+    width: 475vw;
+}
 }
